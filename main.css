@@ -1,0 +1,88 @@
+html {
+    position: relative;
+}
+  
+body {
+    background: darkslategray;
+    /* margin-bottom: 60px; */
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    /* min-height: : 100%; */
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+}
+
+#results {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;;
+}
+
+#name {
+    align-content: flex-start;
+    background: goldenrod;
+    border: 2px solid black;
+    border-radius: 2%;
+    padding: 3%;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+#description {
+    align-content: flex-start;
+    background: goldenrod;
+    border: 2px solid black;
+    border-radius: 2%;
+    padding: 3%;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+#nameResult {
+    display: flex;
+    justify-content: center;
+    color: goldenrod
+}
+
+#descriptionResult {
+    display: flex;
+    justify-content: center;
+    color: goldenrod
+}
+
+#statusName {
+    font-size: 10px;
+}
+
+#statusDescr {
+    font-size: 10px;
+}
+  
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 400%;
+    font-weight: 700;
+    color: white;
+    margin: 3%;
+}
+
+.img {
+    max-width: 70%;
+    height: auto;
+}
+  
+  
+  
+  
